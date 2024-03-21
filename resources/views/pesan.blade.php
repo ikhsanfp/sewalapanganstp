@@ -24,5 +24,8 @@
           <th class="h-8 w-48 border border-gray-500"></th>
       </tr>
   </tbody>
+  <div>
+    <div></div>
+  </div>
 </table>
 @endsection
