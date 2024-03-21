@@ -239,7 +239,8 @@ p{
 <body>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="/">Home</a>
+        <a href="/login">Login</a>
+        <a href="/home">Home</a>
         <a href="/panduan">Panduan</a>
         <a href="/pesan">Pesan</a>
         <a href="/laporan">Laporan</a>

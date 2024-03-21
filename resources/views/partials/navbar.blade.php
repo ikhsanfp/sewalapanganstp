@@ -12,7 +12,7 @@
             <ul class="-ml-20">
               <li class=" py-4 px-6 rounded-3xl hover:text-biru
               {{ request()->is('/') ? 'text-biru' : 'text-black' }}">
-                <a href="/">Home</a>
+                <a href="/home">Home</a>
               </li>
             </ul>
             <ul class="">
@@ -40,7 +40,7 @@
           <div class="justify-beetween">
 
             <button class="flex px-4 py-4 rounded-3xl hover:text-biru">
-              <a href="/homepages" class="m-1 flex hover:to-biru"
+              <a href="/" class="m-1 flex hover:to-biru"
                 >Logout<img
                   class="ml-2 hover:biru"
                   src="./img/logout.png"

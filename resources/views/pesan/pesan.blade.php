@@ -4,7 +4,7 @@
     <h3 class="font-bold ml-12 text-left mt-16 mb-5">List Pesananmu</h3>
 </div>
 <div>
-  <a href="tambahpesan.html" class="font-bold text-white bg-blue-400 rounded px-5 py-2 ml-12 hover:bg-blue-800">
+  <a href="/tambah" class="font-bold text-white bg-blue-400 rounded px-5 py-2 ml-12 hover:bg-blue-800">
     Tambah</a>
 </div>
 <table class="mt-6 ml-12">
@@ -24,8 +24,5 @@
           <th class="h-8 w-48 border border-gray-500"></th>
       </tr>
   </tbody>
-  <div>
-    <div></div>
-  </div>
 </table>
 @endsection
