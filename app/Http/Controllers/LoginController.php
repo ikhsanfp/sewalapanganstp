@@ -10,20 +10,28 @@ class LoginController extends Controller
     public function index()
     {
         return view('login.index', [
-            'email' => ''
+            'title' => 'Login'
         ]);
     }
+
     public function store(Request $request)
     {
-        $credentials = ([
-            'email' => $request->input('email'),
-            'password' => $request->input('password')
+        $credentials = $request->validate([
+            'email' => 'required|email:dns',
+            'password' => 'required'
         ]);
+
+        // $credentials = ([
+        //     'email' => $request->input('email'),
+        //     'password' => $request->input('password')
+        // ]);
 
         if (Auth::attempt($credentials)) {
             return redirect('/home');
         } else {
             dd('Gagal bos');
         }
+        // return back()->with('loginError','Login Failed!' )
+
     }
 }

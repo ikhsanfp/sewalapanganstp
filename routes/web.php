@@ -21,5 +21,6 @@ Route::get('/panduan', [PanduanController::class, 'panduan']);
 
 Route::get('/pesan', [PesanController::class, 'pesan']);
 Route::get('/tambah', [PesanController::class, 'tambah']);
+Route::post('/tambah/store', [PesanController::class, 'store']);
 
 Route::get('/laporan', [LaporanController::class, 'laporan']);

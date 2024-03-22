@@ -11,7 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        Schema::create('pesans', function (Blueprint $table) {
+            $table->id();
+            $table->string('jenislap');
+            $table->date('date');
+            $table->time('time');
+            $table->float('durasi');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -19,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('pesans');
     }
 };

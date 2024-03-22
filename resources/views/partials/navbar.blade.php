@@ -33,7 +33,9 @@
                 <a href="/laporan">Laporan</a>
               </li>
             </ul>
-          </div>
+          </div>  
+
+
           <li class="flex px-4 py-4 rounded-3xl hover:text-biru">
             <a href="/login">Login</a>
           </li>
